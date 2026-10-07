@@ -2,6 +2,9 @@
 int add(int, int);
 int main()
 {
-	printf("add result:%d\n",add(5,4));
+	int a,b;
+	printf("Enter two number\n");
+	scanf("%d %d",&a,&b);
+	printf("add result:%d\n",add(a,b));
 	return 0;
 }
